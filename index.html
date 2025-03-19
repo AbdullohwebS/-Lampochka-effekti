@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>19.03.25.01</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .wrapper {
+        margin: 150px auto;
+        display: flex;
+        justify-content: center;
+      }
+      .text {
+        cursor: pointer;
+
+        text-align: center;
+      }
+      .inputs {
+        justify-content: center;
+        display: flex;
+      }
+    </style>
+  </head>
+  <body style="color: dark">
+    <div class="wrapper">
+      <div class="text">
+        <h1 class="darkmode">dark mode</h1>
+        <img width="300" id="img" src="img/lighttwo.webp" alt="" />
+        <div class="inputs">
+          <div class="colorBg1">
+            <input id="colorBg" type="color" />
+          </div>
+          <div class="colortext1">
+            <input id="colorText" type="color" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- script js  -->
+    <script src="script.js"></script>
+  </body>
+</html>
