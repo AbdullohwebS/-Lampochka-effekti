@@ -20,5 +20,5 @@ colorBg.addEventListener("input", function (event) {
   document.body.style.background = event.target.value;
 });
 colorText.addEventListener("input", function (event) {
-  document.body.style.color = event.target.value;
+  darkmode.style.color = event.target.value;
 });
